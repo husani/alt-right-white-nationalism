@@ -1,0 +1,20 @@
+{
+"manifest_version": 2,
+    "name": "alt-right to white nationalism",
+    "description": "The rise of the so-called 'alt-right' is, essentially, white nationalism. For purposes of accuracy, this Chrome extension replaces all mentions of 'alt-right' with more accurate terms.",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+	"icons": { "16": "icon16.png",
+	           "48": "icon48.png",
+	          "128": "icon128.png" }
+}

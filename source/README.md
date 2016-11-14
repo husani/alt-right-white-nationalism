@@ -1,0 +1,1 @@
+The rise of the so-called 'alt-right' is, essentially, white nationalism. For purposes of accuracy, this Chrome extension replaces all mentions of 'alt-right' with more accurate terms.
